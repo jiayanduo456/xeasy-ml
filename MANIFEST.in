@@ -1,0 +1,23 @@
+#打包需求，和分发无关
+include *.txt *.conf *.pickle *.properties *.md
+include *.txt *.conf *.pickle *.properties *.md
+
+
+recursive-include src1/xeasy_ml/project_init *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_ml/xes_ml_arch/data *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_mly/xes_ml_arch/config *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_ml/xes_ml_arch/config/demo *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_mly/xes_ml_arch/log *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_ml/xes_ml_arch/result *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_ml/xes_ml_arch/src *.txt *.conf *.pickle *.properties *.md
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/analysis_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/config *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/cross_validation_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/data *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/feature_enginnering_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/ml_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/ml_utils_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/model *.txt *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/model_test *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml/xes_ml_arch/src/tests/result *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *
+recursive-include src1/xeasy_ml *.txt *.conf *.pickle *.properties *.md *.py *.html *.js *.png *.css *.table *.csv *

@@ -1,0 +1,90 @@
+test_analysis
+    total:
+             534    251    53%
+    /Users/admin/PycharmProjects/ml_arch_hehao1/xes_ml_arch/src/analysis/analysis.py              188     22    88%
+
+
+cross_validation
+    test_cross_validation  87%
+    data_split.py 66% --> 83%
+
+feature_enginnering:
+    feature_filter.py 83%
+    data_processor.py 76%
+    data_sample.py  88%
+    data_washer.py 51% --> 63%
+    feature_discretizer.py 90%
+    pre_feature_utils.py  84%
+    xes_onehot_encoder.py 70%
+
+
+ml:
+    test_ml_predict:
+        total:
+            2490   1811    27%
+    ml_arch_hehao1/xes_ml_arch/src/ml/prediction_ml.py                             40     30    25% --> 72%
+
+    test_ml_train:
+        total:
+             2564   1791    30%
+    ml_arch_hehao1/xes_ml_arch/src/ml/train_model_ml.py                            74     46    38%  --> 89%
+
+    base_ml  75%
+
+
+ml_utils:
+    test_ml_utils:
+        total:
+                 379    140    63%
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/__init__.py                4      0   100%
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/feature_processor.py     136    110    19%    ########
+        #age2int  平均年龄 最长年龄？ + ？
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/global_pre.py              9      0   100%
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/jsonmanager.py             8      0   100%
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/pre_utils.py             102     22    78%
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/runstatus.py               3      0   100%
+
+    feature_process:
+        ml_arch_hehao1/xes_ml_arch/src/ml_utils/feature_processor.py     136     29    19% --> 79%
+
+model
+    test_model_factory:
+        total:
+                 960    384    60%
+        ml_arch_hehao1/xes_ml_arch/src/model/desion_tree.py               47      6    87%   54-57, 109-110
+        ml_arch_hehao1/xes_ml_arch/src/model/linear.py                    45     13    71%   59-62, 91-94, 113-117, 131
+        ml_arch_hehao1/xes_ml_arch/src/model/lr.py                        29      4    86%   54-57
+        ml_arch_hehao1/xes_ml_arch/src/model/model_factory.py             43      5    88%   75-76, 91, 100, 104
+        ml_arch_hehao1/xes_ml_arch/src/model/my_lightgbm.py               56      5    91%   14-15, 106, 129, 159
+        ml_arch_hehao1/xes_ml_arch/src/model/my_xgb.py                    62      4    94%   14-15, 79-80
+        ml_arch_hehao1/xes_ml_arch/src/model/rf.py                        41      5    88%   56-59, 108
+        ml_arch_hehao1/xes_ml_arch/src/model/sklearn_xgb.py               51      3    94%   13-14, 54
+        ml_arch_hehao1/xes_ml_arch/src/model/sklearn_xgb_reg.py           50      36   28%  --> 64%
+        ml_arch_hehao1/xes_ml_arch/src/model/model_factory.py             43      5    88%
+
+    test_model_function:
+        total:
+                 960    468    51%
+
+        ml_arch_hehao1/xes_ml_arch/src/model/desion_tree.py               47     14    70%
+        ml_arch_hehao1/xes_ml_arch/src/model/linear.py                    45     13    71%
+        ml_arch_hehao1/xes_ml_arch/src/model/lr.py                        29      8    72%
+        ml_arch_hehao1/xes_ml_arch/src/model/model_factory.py             43     29    33%
+        ml_arch_hehao1/xes_ml_arch/src/model/my_lightgbm.py               56     13    77%
+        ml_arch_hehao1/xes_ml_arch/src/model/my_xgb.py                    62     14    77%
+        ml_arch_hehao1/xes_ml_arch/src/model/rf.py                        40     15    62%  --> 67%
+        ml_arch_hehao1/xes_ml_arch/src/model/sklearn_xgb.py               51     19    63%  #为覆盖信息为except
+        ml_arch_hehao1/xes_ml_arch/src/model/sklearn_xgb_reg.py           50     36    28%  --> 64%
+
+optimizing:
+    optimizing.py  74%
+
+
+scheme: 没用到
+
+systemlog:
+    ave: 87%
+
+
+
+    total average ：84.42%   31   共37 schema(2)  systemlog(3)  constance(1)
