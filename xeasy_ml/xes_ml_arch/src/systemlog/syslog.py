@@ -19,7 +19,7 @@ class SysLog():
         if not path:
             path = os.path.join(os.path.dirname(__file__),'../../config/log.conf')
         self.log_path = path
-        logging.config.fileConfig(self.log_path)
+        logging.config.fileConfig(self.log_path, disable_existing_loggers=False)
 
         # test log config path
         # logging.config.fileConfig('../config/log.conf')
