@@ -99,7 +99,7 @@ pip install xeasy-ml
 
 ### 3.如何使用
 
-#### 	1.创建自己的项目
+#### 1.创建自己的项目
 
 ```bash
 #创建一个名为pro_init.py的新python文件来初始化项目。
