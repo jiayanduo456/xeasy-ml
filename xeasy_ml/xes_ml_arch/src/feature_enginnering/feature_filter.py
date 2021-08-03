@@ -314,6 +314,7 @@ class FeatureFilter(object):
 
                 if encoder_flag:
                     lebel_encoder = LabelEncoder()
+                    self._data[_f] = self._data[_f].astype('str')
                     # Fit label encoder and return encoded labels.
                     self._data[_f] = [x + 1 for x in lebel_encoder.fit_transform(self._data[_f])]
                     res[_f] = dict(zip(lebel_encoder.classes_.tolist(),
