@@ -1,7 +1,7 @@
 xeasy-ml
 ====
 ## 1. What is xeasy-ml
-Xeasy-ml is a packaged machine learning framework. It allows a beginner to quickly build a machine learning model and use the model to process and analyze his own data. At the same time, we have also realized the automatic analysis of data. During data processing, xeasy-ml will automatically draw data box plots, distribution histograms, etc., and perform feature correlation analysis to help users quickly discover the value of data.
+Xeasy-ml is a packaged machine learning framework. It allows a user to quickly build a machine learning model only with configuration and use the model to process and analyze his own data. At the same time, we have also realized the automatic analysis of data. During data processing, xeasy-ml will automatically draw data box plots, distribution histograms, etc., and perform feature correlation analysis to help users quickly discover the value of data.
 
 ## 2.Installation
 ### Dependencies
@@ -76,7 +76,7 @@ xeasy-ml中文文档
 ====
 ### 1. 简介
 
-​		xeasy-ml是一个封装的机器学习框架。它允许初学者快速建立机器学习模型，并使用该模型处理和分析自己的数据。同时，还实现了数据的自动分析。在数据处理过程中，xeasy-ml会自动绘制数据的箱线图、分布直方图等，并进行特征相关性分析，帮助用户快速发现数据的价值。
+​		xeasy-mlxeasy-ml是一个机器学习框架。它封装了常用的机器学习学习组件和方法，允许使用者通过配置方式快速建立机器学习模型，并使用该模型处理和分析自己的数据，进行模型选择和参数调优。在数据处理和分析过程中，xeasy-ml会自动绘制数据的箱线图、分布直方图等，并进行特征相关性分析，帮助用户快速发现数据的价值。
 
 ### 2.安装
 
